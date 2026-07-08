@@ -1,6 +1,6 @@
-# 🚚 FastTrack Courier - Microservicio de Gestión de Flota Vehicular
+# FastTrack Courier - Microservicio de Gestión de Flota Vehicular
 
-## 📋 Descripción del Proyecto
+## Descripción del Proyecto
 
 **FastTrack Courier - Gestión de Flota** es un microservicio responsable de la administración del parque vehicular de la empresa logística FastTrack Courier. Este servicio permite gestionar vehículos, controlar su disponibilidad y realizar operaciones CRUD con soft delete.
 
@@ -13,7 +13,7 @@ El microservicio resuelve la necesidad de:
 
 ---
 
-## 👥 Equipo de Desarrollo
+## Equipo de Desarrollo
 
 | Nombre | Rol |
 |--------|-----|
@@ -23,7 +23,7 @@ El microservicio resuelve la necesidad de:
 
 ---
 
-## 🏗️ Arquitectura del Microservicio
+## Arquitectura del Microservicio
 ┌─────────────────────────────────────────────────────────────────┐
 │ Gestión de Flota (Puerto 16000) │
 ├─────────────────────────────────────────────────────────────────┤
@@ -47,7 +47,7 @@ Este microservicio es consumido por el **Microservicio de Rastreo Logístico** (
 
 ---
 
-## 📚 Documentación Swagger
+## Documentación Swagger
 
 ### Local
 - **Swagger UI**: [http://localhost:16000/swagger-ui.html](http://localhost:16000/swagger-ui.html)
@@ -59,7 +59,7 @@ Este microservicio es consumido por el **Microservicio de Rastreo Logístico** (
 
 ---
 
-## 🛣️ Rutas Principales (Endpoints)
+## Rutas Principales (Endpoints)
 
 | Método | Endpoint | Descripción |
 |--------|----------|-------------|
