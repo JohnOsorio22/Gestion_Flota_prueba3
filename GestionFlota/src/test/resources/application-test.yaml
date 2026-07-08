@@ -1,9 +1,9 @@
 spring:
   datasource:
-    url: jdbc:oracle:thin:@(description= (retry_count=20)(retry_delay=3)(address=(protocol=tcps)(port=1522)(host=adb.sa-santiago-1.oraclecloud.com))(connect_data=(service_name=g1bd7524530cc6b_fullstack_medium.adb.oraclecloud.com))(security=(ssl_server_dn_match=yes)))
+    url: jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=FALSE
     driver-class-name: org.h2.Driver
-    username: ADMIN
-    password: Sebastian20051904.
+    username: sa
+    password:
 
   jpa:
     database-platform: org.hibernate.dialect.H2Dialect

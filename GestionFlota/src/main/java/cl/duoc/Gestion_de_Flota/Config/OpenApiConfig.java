@@ -10,7 +10,6 @@ import org.springframework.context.annotation.Configuration;
 
 import java.util.List;
 
-
 @Configuration
 public class OpenApiConfig {
 
@@ -22,7 +21,7 @@ public class OpenApiConfig {
                         .version("1.0.0")
                         .description("""
                                 API REST para la gestión del parque vehicular de FastTrack Courier.
-                                
+
                                 **Características principales:**
                                 - CRUD completo de vehículos con soft delete
                                 - Control de disponibilidad de vehículos
