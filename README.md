@@ -82,8 +82,33 @@ Este microservicio es consumido por el **Microservicio de Rastreo Logístico** (
 ```bash
 curl -X POST http://localhost:16000/api/vehiculos \
   -H "Content-Type: application/json" \
-  -d '{
+  -d '{  
     "patente": "ABCD12",
     "marca": "Toyota",
     "modelo": "Hilux"
   }'
+
+Listar vehículos disponibles
+bash
+curl -X GET http://localhost:16000/api/vehiculos/disponibles
+Cambiar disponibilidad
+bash
+curl -X PATCH http://localhost:16000/api/vehiculos/1/disponibilidad?disponible=false
+Eliminar vehículo (soft delete)
+bash
+curl -X DELETE http://localhost:16000/api/vehiculos/1
+Contar vehículos disponibles
+bash
+curl -X GET http://localhost:16000/api/vehiculos/count/disponibles
+Listar vehículos por marca
+bash
+curl -X GET http://localhost:16000/api/vehiculos/marca/Toyota
+
+## RESUMEN DE UBICACIONES
+
+| Microservicio | Ruta del README |
+|---------------|-----------------|
+| **Rastreo Logístico (CASO 4)** | `Casoo4/README.md` |
+| **Gestión de Flota (CASO 1)** | `GestionFlota/README.md` |
+| **Principal (Raíz del proyecto)** | `README.md` |
+
